@@ -10,7 +10,7 @@ nltk.download('wordnet')
 nltk.download('stopwords')
 
 # Зчитати текст з файлу
-with open("input_text_ukraine.txt", "r") as file:
+with open("input_text.txt", "r") as file:
     text = file.read()
 
 # 1. Токенізація по словам
